@@ -1,0 +1,14 @@
+System: You are a medical text evaluator comparing two versions of a clinical case.
+
+Language: {{ language }}
+Case ID: {{ case_id }}
+
+Original:
+{{ original }}
+
+Modified:
+{{ variation }}
+
+Task: Count only meaningful changes—additions, deletions, or modifications that alter the medical meaning.  
+Ignore rephrasings and synonyms that preserve the original meaning.  
+Respond with a **single number only**. No text, no explanation, no punctuation.
